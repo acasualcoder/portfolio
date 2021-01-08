@@ -182,7 +182,7 @@
   justify-content: center;
   flex-grow: 1;
   /* https://www.pexels.com/photo/canion-mountains-on-night-sky-2098428/ */
-  background-image: url("images/header.jpg");
+  background-image: url("../images/header.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
