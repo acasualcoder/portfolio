@@ -37,19 +37,4 @@ $('.popup-with-move-anim').magnificPopup({
   mainClass: 'my-mfp-slide-bottom'
   });
 
-
-  /* Filter - Isotope */
-  var $grid = $('.grid').isotope({
-      // options
-      itemSelector: '.element-item',
-      layoutMode: 'fitRows'
-  });
-
-  // filter items on button click
-  $('.filters-button-group').on( 'click', 'a', function() {
-      var filterValue = $(this).attr('data-filter');
-      $grid.isotope({ filter: filterValue });
-  });
-
-
 });
